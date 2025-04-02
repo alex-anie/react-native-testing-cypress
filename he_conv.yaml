@@ -1,0 +1,47 @@
+version: "0.1"
+globalTimeout: 90
+testSuiteTimeout: 90
+testSuiteStep: 90
+runson: ${{ matrix.os }}
+cypress: true
+concurrency: 1
+jobLabel:
+  - heJob
+pre:
+  - npm install cypress@^14.2.1
+  - npm install cypress@14.2.1
+cacheKey: '{{ checksum "package.json" }}'
+cacheDirectories:
+  - node_modules
+  - cypressCache
+env:
+  CYPRESS_CACHE_FOLDER: cypressCache
+matrix:
+  browser:
+    - Chrome-latest-1
+    - Firefox-latest-1
+  test:
+    - ./cypress/e2e/fixtures.cy.js
+    - ./cypress/e2e/hello.cy.js
+    - ./cypress/e2e/loader.cy.js
+    - ./cypress/e2e/request.cy.js
+    - ./cypress/e2e/stubbing.cy.js
+    - ./cypress/e2e/testID.cy.js
+    - ./cypress/e2e/validating-props.cy.js
+  os:
+    - Windows 10
+testSuites:
+  - npx cypress run --browser=$browser --headed --config video=false --spec $test
+cypressOps:
+  DedicatedProxy: false
+  Build: react-native-testing-cypress
+  BuildTags: []
+  Tags: []
+  Network: false
+  GeoLocation: ""
+  ReporterConfigFile: base_reporter_config.json
+  ProjectAutoCreate: true
+uploadArtefacts: []
+Tunnel: false
+failFast:
+  maxNumberOfTests: 1

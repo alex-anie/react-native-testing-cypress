@@ -1,6 +1,6 @@
 {
-  "C:\\Users\\ANIE\\Desktop\\Anie\\webdev\\tutorials\\react-native\\eTrade2\\cypress\\e2e\\stubbing.cy.js": {
-    "path": "C:\\Users\\ANIE\\Desktop\\Anie\\webdev\\tutorials\\react-native\\eTrade2\\cypress\\e2e\\stubbing.cy.js",
+  "C:\\Users\\ANIE\\Desktop\\Anie\\webdev\\tutorials\\react-native\\eTrade2\\cypress\\e2e\\fixtures.cy.js": {
+    "path": "C:\\Users\\ANIE\\Desktop\\Anie\\webdev\\tutorials\\react-native\\eTrade2\\cypress\\e2e\\fixtures.cy.js",
     "statementMap": {
       "0": {
         "start": {
@@ -8,7 +8,7 @@
           "column": 0
         },
         "end": {
-          "line": 28,
+          "line": 16,
           "column": 5
         }
       },
@@ -18,68 +18,68 @@
           "column": 4
         },
         "end": {
-          "line": 27,
+          "line": 15,
           "column": 7
         }
       },
       "2": {
         "start": {
           "line": 5,
-          "column": 8
+          "column": 6
         },
         "end": {
-          "line": 18,
-          "column": 29
+          "line": 14,
+          "column": 9
         }
       },
       "3": {
         "start": {
-          "line": 20,
-          "column": 6
+          "line": 6,
+          "column": 8
         },
         "end": {
-          "line": 20,
-          "column": 28
+          "line": 6,
+          "column": 103
         }
       },
       "4": {
         "start": {
-          "line": 21,
-          "column": 6
+          "line": 8,
+          "column": 8
         },
         "end": {
-          "line": 21,
+          "line": 8,
           "column": 30
         }
       },
       "5": {
         "start": {
-          "line": 24,
-          "column": 6
+          "line": 9,
+          "column": 8
         },
         "end": {
-          "line": 24,
-          "column": 53
+          "line": 9,
+          "column": 32
         }
       },
       "6": {
         "start": {
-          "line": 25,
-          "column": 6
+          "line": 12,
+          "column": 8
         },
         "end": {
-          "line": 25,
-          "column": 64
+          "line": 12,
+          "column": 57
         }
       },
       "7": {
         "start": {
-          "line": 26,
-          "column": 6
+          "line": 13,
+          "column": 8
         },
         "end": {
-          "line": 26,
-          "column": 63
+          "line": 13,
+          "column": 80
         }
       }
     },
@@ -89,20 +89,20 @@
         "decl": {
           "start": {
             "line": 3,
-            "column": 37
+            "column": 34
           },
           "end": {
             "line": 3,
-            "column": 38
+            "column": 35
           }
         },
         "loc": {
           "start": {
             "line": 3,
-            "column": 43
+            "column": 40
           },
           "end": {
-            "line": 28,
+            "line": 16,
             "column": 3
           }
         },
@@ -113,24 +113,48 @@
         "decl": {
           "start": {
             "line": 4,
-            "column": 61
+            "column": 70
           },
           "end": {
             "line": 4,
-            "column": 62
+            "column": 71
           }
         },
         "loc": {
           "start": {
             "line": 4,
-            "column": 67
+            "column": 76
           },
           "end": {
-            "line": 27,
+            "line": 15,
             "column": 5
           }
         },
         "line": 4
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 34
+          },
+          "end": {
+            "line": 5,
+            "column": 35
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 48
+          },
+          "end": {
+            "line": 14,
+            "column": 7
+          }
+        },
+        "line": 5
       }
     },
     "branchMap": {},
@@ -146,10 +170,11 @@
     },
     "f": {
       "0": 1,
-      "1": 1
+      "1": 1,
+      "2": 1
     },
     "b": {},
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "0b27be2c65e8776deea6c700e0e365152d6f18f0"
+    "hash": "f88146b413a9921363bb55fc7d1e3359c99a8100"
   }
 }

@@ -1,0 +1,25 @@
+{"level":"info","time":"2025-04-02T19:25:10.082+0100","caller":"cmd/lt.go:207","msg":"LambdaTest Tunnel version: 3.2.14"}
+{"level":"info","time":"2025-04-02T19:25:11.456+0100","caller":"custom/setup.go:867","msg":"Tunnel binary started on port :61860"}
+{"level":"info","time":"2025-04-02T19:25:14.044+0100","caller":"core/lifecycle.go:308","msg":"Launching tunnel"}
+{"level":"error","time":"2025-04-02T19:25:15.273+0100","caller":"tunnelmanager/controller.go:117","msg":"conflict: Tunnel with name: react-native-cypress is already running for user ocxigin@gmail.com"}
+{"level":"error","time":"2025-04-02T19:25:15.273+0100","caller":"core/lifecycle.go:311","msg":"There was an error while starting tunnel: ERR::LUNCH::TUNN : Launch tunnel failed conflict: Tunnel with name: react-native-cypress is already running for user ocxigin@gmail.com "}
+{"level":"info","time":"2025-04-02T19:25:15.273+0100","caller":"cmd/lt.go:237","msg":"Tunnel aborted, starting new tunnel."}
+{"level":"info","time":"2025-04-02T19:25:26.597+0100","caller":"custom/setup.go:867","msg":"Tunnel binary started on port :61860"}
+{"level":"info","time":"2025-04-02T19:25:28.769+0100","caller":"core/lifecycle.go:308","msg":"Launching tunnel"}
+{"level":"error","time":"2025-04-02T19:25:30.019+0100","caller":"tunnelmanager/controller.go:117","msg":"conflict: Tunnel with name: react-native-cypress is already running for user ocxigin@gmail.com"}
+{"level":"error","time":"2025-04-02T19:25:30.019+0100","caller":"core/lifecycle.go:311","msg":"There was an error while starting tunnel: ERR::LUNCH::TUNN : Launch tunnel failed conflict: Tunnel with name: react-native-cypress is already running for user ocxigin@gmail.com "}
+{"level":"info","time":"2025-04-02T19:25:30.019+0100","caller":"cmd/lt.go:237","msg":"Tunnel aborted, starting new tunnel."}
+{"level":"info","time":"2025-04-02T19:25:50.985+0100","caller":"custom/setup.go:867","msg":"Tunnel binary started on port :61860"}
+{"level":"info","time":"2025-04-02T19:25:53.405+0100","caller":"core/lifecycle.go:308","msg":"Launching tunnel"}
+{"level":"error","time":"2025-04-02T19:25:54.617+0100","caller":"tunnelmanager/controller.go:117","msg":"conflict: Tunnel with name: react-native-cypress is already running for user ocxigin@gmail.com"}
+{"level":"error","time":"2025-04-02T19:25:54.617+0100","caller":"core/lifecycle.go:311","msg":"There was an error while starting tunnel: ERR::LUNCH::TUNN : Launch tunnel failed conflict: Tunnel with name: react-native-cypress is already running for user ocxigin@gmail.com "}
+{"level":"info","time":"2025-04-02T19:25:54.617+0100","caller":"cmd/lt.go:237","msg":"Tunnel aborted, starting new tunnel."}
+{"level":"info","time":"2025-04-02T19:26:36.561+0100","caller":"custom/setup.go:867","msg":"Tunnel binary started on port :61860"}
+{"level":"info","time":"2025-04-02T19:26:38.701+0100","caller":"core/lifecycle.go:308","msg":"Launching tunnel"}
+{"level":"error","time":"2025-04-02T19:26:39.938+0100","caller":"tunnelmanager/controller.go:117","msg":"conflict: Tunnel with name: react-native-cypress is already running for user ocxigin@gmail.com"}
+{"level":"error","time":"2025-04-02T19:26:39.938+0100","caller":"core/lifecycle.go:311","msg":"There was an error while starting tunnel: ERR::LUNCH::TUNN : Launch tunnel failed conflict: Tunnel with name: react-native-cypress is already running for user ocxigin@gmail.com "}
+{"level":"info","time":"2025-04-02T19:26:39.938+0100","caller":"cmd/lt.go:237","msg":"Tunnel aborted, starting new tunnel."}
+{"level":"info","time":"2025-04-02T19:28:01.320+0100","caller":"custom/setup.go:867","msg":"Tunnel binary started on port :61860"}
+{"level":"info","time":"2025-04-02T19:28:03.729+0100","caller":"core/lifecycle.go:308","msg":"Launching tunnel"}
+{"level":"info","time":"2025-04-02T19:28:08.098+0100","caller":"core/lifecycle.go:430","msg":"You can start testing now"}
+{"level":"info","time":"2025-04-02T19:28:08.098+0100","caller":"core/lifecycle.go:431","msg":"Tunnel ID: 5211790"}
