@@ -2,14 +2,14 @@ export const gadgets = [
     {   
         id: '1',
         product: 'Sony PlayStation DualSense Controller',
-        description: 'The Sony PlayStation Dualsense Wireless Controller represents the next generation of PlayStation gaming with its clean design, stylish RGB lighting',
+        description: 'The Sony PlayStation Dual-sense Wireless Controller represents the next generation of PlayStation gaming with its clean design, stylish RGB lighting',
         price: 20,
         oldPrice: 40,
         star: '⭐⭐⭐⭐⭐',
         categories: 'Controller / Game-pad',
         imageUrl: require('../assets/images/api-images/sony-gamr-pad.png')
     },
-
+    
     {   
         id: '2',
         product: 'Desktop Gaming Keyboard',
