@@ -1,4 +1,6 @@
-import { Text, View, StyleSheet, ScrollView } from "react-native";
+import React from 'react';
+
+import {View, StyleSheet, ScrollView } from "react-native";
 import LandingPage from "@/components/home/LandingPage";
 import PhonesCategories from "@/components/home/PhonesCategories";
 import ExploreProduct from "@/components/home/ExploreProducts";

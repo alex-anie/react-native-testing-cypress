@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { View, Text, StyleSheet, FlatList } from 'react-native'
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import { Image } from 'expo-image';

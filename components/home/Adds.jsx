@@ -1,5 +1,7 @@
 import { View, Text, StyleSheet } from 'react-native';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
+import React from 'react';
+
 import Breadcrumbs from './Breadcrumbs';
 import Buttons from './Buttons';
 import { Image } from 'expo-image';

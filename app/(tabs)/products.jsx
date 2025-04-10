@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { View, StyleSheet, ScrollView } from "react-native";
 import LandingPage from "@/components/home/LandingPage";
 import ExploreProduct from "@/components/home/ExploreProducts";

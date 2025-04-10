@@ -18,9 +18,9 @@ env:
   CYPRESS_CACHE_FOLDER: cypressCache
 matrix:
   browser:
-    - Chrome-latest-1
-    - Firefox-latest-1
+    - Chrome-latest
   test:
+    - ./cypress/e2e/dummy.cy.js
     - ./cypress/e2e/fixtures.cy.js
     - ./cypress/e2e/hello.cy.js
     - ./cypress/e2e/loader.cy.js
@@ -29,7 +29,7 @@ matrix:
     - ./cypress/e2e/testID.cy.js
     - ./cypress/e2e/validating-props.cy.js
   os:
-    - Windows 10
+    - Windows 11
 testSuites:
   - npx cypress run --browser=$browser --headed --config video=false --spec $test
 cypressOps:
@@ -42,6 +42,6 @@ cypressOps:
   ReporterConfigFile: base_reporter_config.json
   ProjectAutoCreate: true
 uploadArtefacts: []
-Tunnel: false
+Tunnel: true
 failFast:
   maxNumberOfTests: 1

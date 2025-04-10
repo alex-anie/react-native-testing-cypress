@@ -1,5 +1,9 @@
+import React from 'react';
+
+
 import { useState } from 'react'
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+
 export default function Rate() {
     const [count, setCounter]= useState(0)
 
